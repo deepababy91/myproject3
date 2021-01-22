@@ -1,3 +1,11 @@
+
+Installed the following dependencies
+1)npm install react-bootstrap bootstrap
+2)npm install antd --save
+3)npm install formik --save
+4)npm install --save 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -127,12 +127,11 @@ label{
   display: block;
   margin: 0 auto;
   text-align: left;
-  width: 50%;
 }
 .formlabel {
   display: block;
-  font-size: 16px;
-  margin-bottom: 4px;
+  font-size: 18px;
+  margin-bottom: 5px;
   color:rgb(218, 209, 209);
   font-weight:300;
   font-family: 'Oleo Script', cursive;
@@ -142,6 +141,7 @@ label{
   border-radius: 4px;
   height: 28px;
   width: 100%;
+  margin-bottom:4px;
 }
 .formp {
   color: #d41a1a;
@@ -226,7 +226,13 @@ label{
   text-align: center;
   font-family: 'Oleo Script', cursive;
   padding:15px;
-  font-size:20px;
+  font-size:25px;
+}
+.forminput{
+  border: 1px solid #333;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
 }
 
 }
@@ -235,6 +241,24 @@ label{
     padding-top:150px;
     font-size: 40px;
   }
+  .signupform {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 70%;
+}
+.signup{
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  padding:15px;
+  font-size:30px;
+}
+.forminput{
+  border: 1px solid #333;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+}
 
 }
 @media only screen and (min-width: 768px){
@@ -242,16 +266,70 @@ label{
     padding-top:200px;
     font-size: 50px;
   }
+   .signupform {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 75%;
+}
+.signup{
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  padding:15px;
+  font-size:33px;
+}
+.forminput{
+  border: 1px solid #333;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+}
 }
 @media only screen and (min-width: 1024px){
   .help{
     padding-top:250px;
     font-size: 70px;
   }
+  .signupform {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 65%;
+}
+.signup{
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  padding:15px;
+  font-size:35px;
+}
+.forminput{
+  border: 1px solid #333;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+}
 }
  @media only screen and (min-width: 1280px){
    .help{
     padding-top:250px;
     font-size: 70px;
   }
+    .signupform {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 55%;
+}
+.signup{
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  padding:15px;
+  font-size:37px;
+}
+.forminput{
+  border: 1px solid #333;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+}
  }

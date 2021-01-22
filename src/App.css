@@ -216,6 +216,18 @@ label{
     padding-top:150px;
     font-size: 30px;
   }
+  .signupform {
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 75%;
+}
+.signup{
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  padding:15px;
+  font-size:20px;
+}
 
 }
 @media only screen and (min-width: 400px){

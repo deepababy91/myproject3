@@ -1,14 +1,17 @@
 
 My name is Deepa Baby.
+
 This is my Todolist project using react hooks with context concept.
 /todo, /contact, /signup and '/'(directing to signup page again).Used react router with bootstrap navigation bar for the navigation section
 which is responsive.Also I used Hashrouter instead of BrowserRouter to avoid getting the 404 error after refreshing the pages whenever the project  accessed through github link.
+
 For the Signup page ,I used formik and yup. For the contact page,I used formik again to implement the form.
 The main todos page implemented using react hooks with context.Local storage is used to avoid the data disappearing after the page refresh.
 I used antd with bootstrap mostly for the design.With this todolist, I can add todos both by pressing enter key and clicking on add icon.
 I can complete both each and all tasks.Whenever the user completes the task, the edit and delete icons section show disabled.I added the function to show the task status displaying the active and completed tasks count as a notification
 Added the function to clear all tasks with clear all button. Added the function to delete each task.I can edit each task and save it .
 Then I used antd to implement the filter function design to show active, completed and all tasks. 
+
 Technologies used here are HTML,CSS,Javascript,react hooks with context
 
 For the future improvement,I would like to add search feature to find a task
@@ -27,10 +30,10 @@ Installed the following dependencies for this project
 5)npm install yup --save
 6)npm install -s react-router-bootstrap
 
-I deployed the porject in github pages.The link is given below
+I deployed the project in github pages.The link is given below
 https://deepababy91.github.io/myproject3/#/
 
-
+git
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

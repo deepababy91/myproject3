@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Todo from './Todo';
-import Login from './Login';
+import Signup from './Signup';
 import Contact from './Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/antd.css';
@@ -18,12 +18,12 @@ function App() {
       <div className="App">
         <Header/>
         <Switch>
-        {/*I am using the same signup page as my home page and also as a navlink to avoid creating another homepage*/}
-          <Route exact path="/" component={Login}/>
-          <Route path="/login" component={Login} />
+        {/*I am using the same login page component as my home page('/') and also as a navlink('/account) to avoid creating another homepage component*/}
+          <Route exact path="/" component={Signup}/>
+          <Route path="/signup" component={Signup} />
           <Route path="/todo" component={Todo} />
           <Route path="/contact" component={Contact} />
-          {/*If anything write after the '/' then I need to redirect it to the sign up page */}
+          {/*If anything write after the '/' then I need to redirect it to the login page */}
           <Redirect to="/" />
         </Switch>
       </div>

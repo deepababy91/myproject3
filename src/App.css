@@ -16,7 +16,7 @@ margin:0;
   box-shadow:0 12px 26px rgb(225, 243, 59);
   margin: 50px auto;
   padding:50px;
-  background-color: rgb(173, 161, 161);
+  background-color:#e5e4e2;
 
 
 }
@@ -40,12 +40,11 @@ form input{
   
 }
 form button{
-  flex:0.75;
-  background:rgb(9, 10, 10);
-  color:white;
+  flex:0.25;
+  background:rgb(100, 99, 99);
   cursor:pointer;
   margin:0 5px;
-  border-radius: 9px;
+  border-radius: 100%;
   border-style: hidden;
 }
 ul li{
@@ -99,7 +98,6 @@ ul li button,
  }
 label{
   cursor:pointer;
-
 }
 
 .signup{
@@ -107,22 +105,6 @@ label{
   font-family: 'Oleo Script', cursive;
   padding:15px;
 }
- 
-  /*.signup{
-  animation: signupcolor 4s infinite;
-  }
-  @keyframes signupcolor{
-     from {color:white;}
-     to {color:goldenrod;}
-  }
- 
-     animation: navlinkcolor2 4s infinite;
- }
- @keyframes navlinkcolor2{
-     from {color:white;}
-     to {color:goldenrod;
-  }
- }*/
 .signupform {
   display: block;
   margin: 0 auto;
@@ -139,7 +121,7 @@ label{
 .forminput{
   border: 1px solid #333;
   border-radius: 4px;
-  height: 28px;
+  height: 30px;
   width: 100%;
   margin-bottom:4px;
 }
@@ -157,9 +139,6 @@ label{
 
 .test{
   background-color: rgb(39, 37, 37);
-  
-  /*background-image:url("https://previews.123rf.com/images/christianchan/christianchan1503/christianchan150300059/37139734-hand-writing-on-blank-blue-chalkboard-or-background-.jpg");
-  background-size:cover;*/
 }
 .navbar-light .navbar-brand{
   font-size: 30px;
@@ -181,66 +160,64 @@ label{
      to {color:rgb(185, 46, 81);
   }
  }
- /*.nav-link{
-     animation: navlinkcolor 4s infinite;
-     font-size:20px;
-     font-family: 'Oleo Script', cursive;
- }
- @keyframes navlinkcolor{
-     from {color:white;}
-     to {color:goldenrod;
-  }
- }
- button.navbar-toggler{
-   border-color:rgb(100, 98, 98) !important;
- }
- span.navbar-toggler-icon{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
- !important;
-}*/
-.help{
-     animation: helptext 4s infinite;
-      }
- @keyframes helptext{
-     from {color:white;}
-     to {color:goldenrod;
-  }
- }
-
-
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
   .Todo{
-    padding:40px;
-  }
-  .help{
-    padding-top:150px;
-    font-size: 30px;
-  }
-  .signupform {
+  max-width:300px;
+  width:100%;
+  min-height:450px;
+  box-shadow:0 12px 26px rgb(225, 243, 59);
+  margin: 80px auto;
+  padding:22px;
+  background-color:#e5e4e2;
+}
+form button{
+  flex:0.39;
+  background:rgb(100, 99, 99);
+  cursor:pointer;
+  margin:0 5px;
+  border-radius: 100%;
+  border-style: hidden;
+}
+.signupform {
   display: block;
   margin: 0 auto;
   text-align: left;
-  width: 75%;
+  width: 80%;
 }
 .signup{
   text-align: center;
   font-family: 'Oleo Script', cursive;
-  padding:15px;
-  font-size:25px;
+  padding-top:50px;
+  font-size:28px;
 }
 .forminput{
   border: 1px solid #333;
   border-radius: 4px;
-  height: 30px;
+  height: 35px;
   width: 100%;
 }
-
+.empty{
+  padding-top:30px;
 }
-@media only screen and (min-width: 400px){
-  .help{
-    padding-top:150px;
-    font-size: 40px;
-  }
+}
+@media only screen and (min-width: 450px){
+  .Todo{
+  max-width:420px;
+  width:100%;
+  min-height:500px;
+  box-shadow:0 12px 26px rgb(225, 243, 59);
+  margin: 80px auto;
+  padding:30px;
+  background-color:#e5e4e2;
+}
+form button{
+  flex:0.32;
+  background:rgb(100, 99, 99);
+  cursor:pointer;
+  margin:0 5px;
+  border-radius: 100%;
+  border-style: hidden;
+}
   .signupform {
   display: block;
   margin: 0 auto;
@@ -250,7 +227,7 @@ label{
 .signup{
   text-align: center;
   font-family: 'Oleo Script', cursive;
-  padding:15px;
+  padding-top:50px;
   font-size:30px;
 }
 .forminput{
@@ -259,13 +236,28 @@ label{
   height: 30px;
   width: 100%;
 }
-
+.empty{
+  padding-top:55px;
+}
 }
 @media only screen and (min-width: 768px){
-  .help{
-    padding-top:200px;
-    font-size: 50px;
-  }
+ .Todo{
+  max-width:500px;
+  width:100%;
+  min-height:550px;
+  box-shadow:0 12px 26px rgb(225, 243, 59);
+  margin: 80px auto;
+  padding:40px;
+  background-color:#e5e4e2;
+}
+form button{
+  flex:0.26;
+  background:rgb(100, 99, 99);
+  cursor:pointer;
+  margin:0 5px;
+  border-radius: 100%;
+  border-style: hidden;
+}
    .signupform {
   display: block;
   margin: 0 auto;
@@ -275,7 +267,7 @@ label{
 .signup{
   text-align: center;
   font-family: 'Oleo Script', cursive;
-  padding:15px;
+  padding-top:50px;
   font-size:33px;
 }
 .forminput{
@@ -284,12 +276,28 @@ label{
   height: 30px;
   width: 100%;
 }
+.empty{
+  padding-top:70px;
+}
 }
 @media only screen and (min-width: 1024px){
-  .help{
-    padding-top:250px;
-    font-size: 70px;
-  }
+  .Todo{
+  max-width:500px;
+  width:100%;
+  min-height:600px;
+  box-shadow:0 12px 26px rgb(225, 243, 59);
+  margin: 80px auto;
+  padding:45px;
+  background-color:#e5e4e2;
+}
+form button{
+  flex:0.26;
+  background:rgb(100, 99, 99);
+  cursor:pointer;
+  margin:0 5px;
+  border-radius: 100%;
+  border-style: hidden;
+}
   .signupform {
   display: block;
   margin: 0 auto;
@@ -299,7 +307,7 @@ label{
 .signup{
   text-align: center;
   font-family: 'Oleo Script', cursive;
-  padding:15px;
+  padding-top:50px;
   font-size:35px;
 }
 .forminput{
@@ -308,12 +316,28 @@ label{
   height: 30px;
   width: 100%;
 }
+.empty{
+  padding-top:80px;
+}
 }
  @media only screen and (min-width: 1280px){
-   .help{
-    padding-top:250px;
-    font-size: 70px;
-  }
+  .Todo{
+  max-width:500px;
+  width:100%;
+  min-height:600px;
+  box-shadow:0 12px 26px rgb(225, 243, 59);
+  margin: 80px auto ;
+  padding:50px;
+  background-color:#e5e4e2;
+}
+form button{
+  flex:0.26;
+  background:rgb(100, 99, 99);
+  cursor:pointer;
+  margin:0 5px;
+  border-radius: 100%;
+  border-style: hidden;
+}
     .signupform {
   display: block;
   margin: 0 auto;
@@ -323,7 +347,7 @@ label{
 .signup{
   text-align: center;
   font-family: 'Oleo Script', cursive;
-  padding:15px;
+  padding-top:50px;
   font-size:37px;
 }
 .forminput{
@@ -331,5 +355,8 @@ label{
   border-radius: 4px;
   height: 30px;
   width: 100%;
+}
+.empty{
+  padding-top:90px;
 }
  }

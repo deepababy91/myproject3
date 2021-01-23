@@ -28,9 +28,13 @@ function TodoFormInput() {
     return (
        
              <form autoComplete="off" onSubmit={addTodo} >
-      <input type="text" name="todos" id="todos" required placeholder="Type a todo and press Enter" value={todoName}
+      <input type="text" name="todos" id="todos" required placeholder="Enter a Task..." value={todoName}
       onChange={e=>setTodoName(e.target.value)} />
-      <button type="submit"  onClick={info}><Tooltip title="Click here to add the task"><PlusCircleOutlined  style={{ fontSize: '25px', color: 'white' }}/> </Tooltip></button>
+      <button type="submit"  onClick={info}>
+      <Tooltip title="Click here to add the task">
+      <PlusCircleOutlined  style={{ fontSize: '25px', color: 'white' }}/> 
+      </Tooltip>
+      </button>
       
       </form>
       

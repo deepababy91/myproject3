@@ -83,7 +83,7 @@ function Filter() {
         <div>
          
         {todos.length===0? 
-      <h2><Empty /></h2>:
+      <div className="empty"><Empty description="Nothing to do"/></div>:
       
     
      <div className="row">
@@ -93,12 +93,7 @@ function Filter() {
   </Button>
     
      
-    {/* <label htmlFor="all" className="allinput">
-      <Tooltip placement="left" title="Check to complete all tasks and uncheck to make it active again"><input type="checkbox" name="all" id="all"
-        onChange={handleCheckAll} checked={checkAll} /></Tooltip>Mark all complete 
-     
-      
-        </label>*/}
+
            <Popconfirm
                          title="Are you sure you want to delete all tasks?"
                         onConfirm={deleteTodo}

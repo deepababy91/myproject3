@@ -162,7 +162,7 @@ label{
  }
 @media screen and (max-width:450px){
   .Todo{
-  max-width:300px;
+  max-width:335px;
   width:100%;
   min-height:450px;
   box-shadow:0 12px 26px rgb(225, 243, 59);
@@ -322,7 +322,7 @@ form button{
 }
  @media only screen and (min-width: 1280px){
   .Todo{
-  max-width:500px;
+  max-width:550px;
   width:100%;
   min-height:600px;
   box-shadow:0 12px 26px rgb(225, 243, 59);

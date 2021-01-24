@@ -14,15 +14,11 @@ export const TodoContext=(props)=>{
      useEffect(() =>{
      localStorage.setItem('todoLocalstorage',JSON.stringify(todos))//The setItem() method of the Storage interface, when passed a key name and value, will add that key to the given Storage object, or update that key's value if it already exists.
     },[todos])
- 
-    
     
     return (
-    
         <DataContext.Provider value={[todos,setTodos]}>
             {props.children}
         </DataContext.Provider>
-            
-      
+             
     )
 }

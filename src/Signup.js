@@ -1,9 +1,7 @@
- import React from "react";
+import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Button } from 'react-bootstrap';
-
-
 
 export default function Signup() {
   const formik = useFormik({
@@ -89,7 +87,7 @@ export default function Signup() {
         </div>
         <div>
         <br/>
-      
+      {/*react bootstrap button for submitting the form and added some styles to it*/}
         <Button color="primary" type="submit" style={{fontFamily:'Oleo Script'}}>Submit</Button>
         </div>
       </form>

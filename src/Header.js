@@ -4,7 +4,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 
 const Header= () => {
     return (
-        
+       //using reactt bootstrap navigation bar 
         <Navbar className="color-nav"  expand="lg" >
       <h2>Mytodoapp</h2>
       {/*<LinkContainer to="/">

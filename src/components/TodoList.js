@@ -2,7 +2,6 @@ import React, {useContext} from 'react'
 import TodoListItem from './TodoListItem'
 import {DataContext} from './TodoContext'
 
-
 export default function TodoList() {
     const [todos,setTodos]=useContext(DataContext);
     console.log(todos)
@@ -12,8 +11,7 @@ export default function TodoList() {
         newTodos.forEach((todo,index)=>{
             if(index===id){
                 todo.complete= !todo.complete
-            }
-        
+            }    
     })
     setTodos(newTodos)
 }

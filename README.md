@@ -2,7 +2,7 @@
 My name is Deepa Baby.
 
 This is my Todolist project using react hooks with context concept.
-/todo, /contact, /signup and '/'(directing to signup page again).Used react router with bootstrap navigation bar for the navigation section
+/todo, /contact, /signup and '/'(directing to signup page again) are the views.Used react router with bootstrap navigation bar for the navigation section
 which is responsive.Also I used Hashrouter instead of BrowserRouter to avoid getting the 404 error after refreshing the pages whenever the project  accessed through github link.
 
 For the Signup page ,I used formik and yup. For the contact page,I used formik again to implement the form.

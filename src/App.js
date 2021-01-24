@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header/>
         <Switch>
-        {/*I am using the same login page component as my home page('/') and also as a navlink('/account) to avoid creating another homepage component*/}
+        {/*I am using the same signup page component as my home page('/') and also as a navlink('/signup) to avoid creating another homepage component*/}
           <Route exact path="/" component={Signup}/>
           <Route path="/signup" component={Signup} />
           <Route path="/todo" component={Todo} />

@@ -4,6 +4,7 @@ import TodoFormInput from './components/TodoFormInput'
 import TodoList from './components/TodoList'
 import Filter from './components/Filter'
 import {TodoContext} from './components/TodoContext'
+import './index.css';
 
 function Todo() {
    return (

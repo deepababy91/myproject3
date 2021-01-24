@@ -22,22 +22,22 @@ export default function Contact() {
                 <Form className="signupform">
                     <div className="form-group">
                         <label htmlFor="name" className="formlabel" >Name</label>
-                        <Field name="name" className="form-control" type="text" required style={{height:'28px'}}/>
+                        <Field name="name" className="form-control" type="text" required style={{height:'30px'}}/>
                     </div>
 
                     <div className="form-group">
                         <label htmlFor="email" className="formlabel">Email Address</label>
-                        <Field name="email" className="form-control" type="email" style={{height:'28px'}} />
+                        <Field name="email" className="form-control" type="email" required style={{height:'30px'}} />
                     </div>
 
                     <div className="form-group">
                         <label htmlFor="subject" className="formlabel">Subject</label>
-                        <Field name="subject" className="form-control" type="text" style={{height:'28px'}}/>
+                        <Field name="subject" className="form-control" type="text" required style={{height:'30px'}}/>
                     </div>
 
                     <div className="form-group">
                         <label htmlFor="content" className="formlabel">Content</label>
-                        <Field name="content" className="form-control" as="textarea"/>
+                        <Field name="content" className="form-control" as="textarea" required/>
                     </div>
                     <div className="form-group">
                     <Button color="primary" type="submit" style={{fontFamily:'Oleo Script'}}>Submit</Button>

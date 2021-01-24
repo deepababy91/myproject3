@@ -88,7 +88,7 @@ function Filter() {
     
      <div className="row">
     <Demo/>
-     <Button type="primary" onClick={openNotification} style={{width:'96%',marginBottom:'20px'}}>
+     <Button type="primary" onClick={openNotification} style={{width:'96%',marginBottom:'20px',borderRadius:'20px'}}>
   click to know about the task status
   </Button>
     
@@ -108,7 +108,7 @@ function Filter() {
                           cancelText="No"
                       >
      
-      <button id="delete" style={{width:'96%'}}>Clear all</button>
+      <button id="delete" style={{width:'96%',borderRadius:'20px'}}>Clear all</button>
      </Popconfirm>
         <label htmlFor="all" className="allinput">
       <Tooltip placement="left" title="Check to complete all tasks and uncheck to make it active again"><input type="checkbox" name="all" id="all"

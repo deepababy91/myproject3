@@ -3,28 +3,18 @@ padding:0;
 box-sizing: border-box;
 font-weight:600;
 margin:0;
-
 }
-
-
-
-
+.backgroundshade{
+  background-color: rgb(39, 37, 37);
+}
+/*css for todo page*/
 .Todo{
   max-width:500px;
   width:100%;
   min-height:400px;
-  box-shadow:0 12px 26px rgb(225, 243, 59);
   margin: 50px auto;
   padding:50px;
   background-color:#e5e4e2;
-
-
-}
-h1{
-  text-align:center;
-  letter-spacing:2px;
-  font-weight:900;
-  font-family: 'Oleo Script', cursive;
 }
 form{
   width:100%;
@@ -35,9 +25,8 @@ form{
 form input{
   flex:3;
   margin:0 px;
-  border-radius: 9px;
-  border-style: hidden;
-  
+  border-radius: 20px;
+  border-style: hidden;  
 }
 form button{
   flex:0.25;
@@ -57,11 +46,9 @@ ul li{
   align-items:center;
   text-transform: capitalize;
 }
-
 ul li .active{
   opacity:0.5;
   text-decoration:line-through;
-
 }
 ul li input,
 .row input{
@@ -77,18 +64,16 @@ ul li button,
   background:orange;
   padding:5px 15px;
 }
-
 .disabled1{
   opacity:0.2;
   cursor: not-allowed !important;
 }
 .row{
-  display:flex;
+  /*display:flex;
   justify-content:space-between;
-  align-items:center;
+  align-items:center;*/
   margin-top:30px;
   padding-left:18px;
-
 }
 .allinput{
   padding-top:30px;
@@ -99,7 +84,13 @@ ul li button,
 label{
   cursor:pointer;
 }
-
+h1{
+  text-align:center;
+  letter-spacing:2px;
+  font-weight:900;
+  font-family: 'Oleo Script', cursive;
+}
+/*css for contact and sign in pages*/
 .signup{
   text-align: center;
   font-family: 'Oleo Script', cursive;
@@ -130,15 +121,9 @@ label{
   font-size: 12px;
   margin: 4px 0 8px 0;
 }
+/*css for navigation bar*/
 .color-nav{
-  background-color:rgb(212, 203, 152);
-  
-}
-
-
-
-.test{
-  background-color: rgb(39, 37, 37);
+  background-color:rgb(212, 203, 152);  
 }
 .navbar-light .navbar-brand{
   font-size: 30px;
@@ -150,6 +135,7 @@ label{
   font-family: 'Oleo Script', cursive;
   
 }
+/*css animation for navigation bar brand name*/
 .navbar-light .navbar-brand,h2{
      animation: navlinkcolor1 4s infinite;
      font-size: 30px;
@@ -160,18 +146,15 @@ label{
      to {color:rgb(185, 46, 81);
   }
  }
-@media screen and (max-width:450px){
+ /*media query for screen size less than 450px,Small screen view with no border or box-shadow compared to other screensizes*/
+@media screen and (max-width:500px){
   .Todo{
-  max-width:335px;
-  width:100%;
-  min-height:450px;
-  box-shadow:0 12px 26px rgb(225, 243, 59);
-  margin: 80px auto;
-  padding:22px;
+  margin:80px auto;
+  padding:20px;
   background-color:#e5e4e2;
 }
 form button{
-  flex:0.39;
+  flex:0.27;
   background:rgb(100, 99, 99);
   cursor:pointer;
   margin:0 5px;
@@ -200,11 +183,12 @@ form button{
   padding-top:30px;
 }
 }
-@media only screen and (min-width: 450px){
+/*media query for screen size greater than 450px*/
+@media only screen and (min-width: 500px){
   .Todo{
   max-width:420px;
   width:100%;
-  min-height:500px;
+  min-height:400px;
   box-shadow:0 12px 26px rgb(225, 243, 59);
   margin: 80px auto;
   padding:30px;
@@ -237,14 +221,15 @@ form button{
   width: 100%;
 }
 .empty{
-  padding-top:55px;
+  padding-top:50px;
 }
 }
+/*media query for screen size greater than 768px*/
 @media only screen and (min-width: 768px){
  .Todo{
   max-width:500px;
   width:100%;
-  min-height:550px;
+  min-height:400px;
   box-shadow:0 12px 26px rgb(225, 243, 59);
   margin: 80px auto;
   padding:40px;
@@ -277,14 +262,15 @@ form button{
   width: 100%;
 }
 .empty{
-  padding-top:70px;
+  padding-top:50px;
 }
 }
+/*media query for screen size greater than 1024px*/
 @media only screen and (min-width: 1024px){
   .Todo{
   max-width:500px;
   width:100%;
-  min-height:600px;
+  min-height:400px;
   box-shadow:0 12px 26px rgb(225, 243, 59);
   margin: 80px auto;
   padding:45px;
@@ -317,14 +303,15 @@ form button{
   width: 100%;
 }
 .empty{
-  padding-top:80px;
+  padding-top:50px;
 }
 }
+/*media query for screen size greater than 1280px*/
  @media only screen and (min-width: 1280px){
   .Todo{
   max-width:550px;
   width:100%;
-  min-height:600px;
+  min-height:400px;
   box-shadow:0 12px 26px rgb(225, 243, 59);
   margin: 80px auto ;
   padding:50px;
@@ -357,6 +344,6 @@ form button{
   width: 100%;
 }
 .empty{
-  padding-top:90px;
+  padding-top:50px;
 }
  }

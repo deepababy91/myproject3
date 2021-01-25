@@ -6,7 +6,7 @@ padding:0;
 }
 /*css to provide padding at the bottom of each pages*/
 .App{
-  padding-bottom:50px;
+  padding-bottom:70px;
 }
 .backgroundshade{
   background-color: rgb(39, 37, 37);
@@ -362,7 +362,7 @@ form button{
 /*media query for screen size greater than 1024px*/
 @media only screen and (min-width: 1024px){
   .Todo{
-  max-width:500px;
+  max-width:600px;
   width:100%;
   min-height:400px;
  box-shadow:
@@ -374,7 +374,7 @@ form button{
   background-color:#e5e4e2;
 }
 form button{
-  flex:0.26;
+  flex:0.23;
   background:rgb(100, 99, 99);
   cursor:pointer;
   margin:0 5px;
@@ -406,7 +406,7 @@ form button{
 /*media query for screen size greater than 1280px*/
  @media only screen and (min-width: 1280px){
   .Todo{
-  max-width:550px;
+  max-width:600px;
   width:100%;
   margin: 80px auto;
   min-height:400px;
@@ -419,7 +419,7 @@ form button{
   background-color:#e5e4e2;
 }
 form button{
-  flex:0.25;
+  flex:0.24;
   background:rgb(100, 99, 99);
   cursor:pointer;
   margin:0 5px;

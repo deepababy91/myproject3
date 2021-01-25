@@ -7,7 +7,6 @@ import { Button } from 'react-bootstrap';
 export default function Contact() {
   return (
     <div>
-
         <h1 className="signup" style={{color:'rgb(209, 193, 193)'}}>Contact Us</h1>
       <Formik
             initialValues={{ name: '', email: '', subject: '', content: '' }}
@@ -42,7 +41,6 @@ export default function Contact() {
                     <div className="form-group">
                     <Button color="primary" type="submit" style={{fontFamily:'Oleo Script'}}>Submit</Button>
                     </div>
-
                 </Form>
             )}
         </Formik>

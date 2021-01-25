@@ -210,10 +210,10 @@ h1{
   
 }
 /*adding css animation for navbar brand name*/
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 h2 {
 		color: #fff;
-		text-transform: uppercase;
-		font-family: "Josefin Sans", sans-serif;
+		font-family: 'Playball', cursive;
 		background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #35af39 60%);
 		background-size: auto auto;
 		background-clip: border-box;

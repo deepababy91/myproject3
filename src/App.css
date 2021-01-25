@@ -30,7 +30,7 @@ form input{
   flex:3;
   margin:0 px;
   border-radius: 20px;
-  border-style: hidden;  
+  border-style: hidden;
 }
 form button{
   flex:0.25;
@@ -49,6 +49,7 @@ ul li{
   justify-content: space-between;
   align-items:center;
   text-transform: capitalize;
+  font-size: 15px;
 }
 ul li .active{
   opacity:0.5;
@@ -73,9 +74,6 @@ ul li button,
   cursor: not-allowed !important;
 }
 .row{
-  /*display:flex;
-  justify-content:space-between;
-  align-items:center;*/
   margin-top:30px;
   padding-left:18px;
 }
@@ -127,7 +125,7 @@ h1{
 }
 /*css for navigation bar*/
 .color-nav{
-  background-color:rgb(212, 203, 152);  
+  background-color:black;  
 }
 .navbar-light .navbar-brand{
   font-size: 30px;
@@ -193,7 +191,10 @@ form button{
   max-width:420px;
   width:100%;
   min-height:400px;
-  box-shadow:0 12px 26px rgb(225, 243, 59);
+  box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
   margin: 80px auto;
   padding:30px;
   background-color:#e5e4e2;
@@ -234,7 +235,10 @@ form button{
   max-width:500px;
   width:100%;
   min-height:400px;
-  box-shadow:0 12px 26px rgb(225, 243, 59);
+   box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
   margin: 80px auto;
   padding:40px;
   background-color:#e5e4e2;
@@ -275,7 +279,10 @@ form button{
   max-width:500px;
   width:100%;
   min-height:400px;
-  box-shadow:0 12px 26px rgb(225, 243, 59);
+  box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
   margin: 80px auto;
   padding:45px;
   background-color:#e5e4e2;
@@ -317,7 +324,11 @@ form button{
   width:100%;
   margin: 80px auto;
   min-height:400px;
-  box-shadow:0 12px 26px rgb(225, 243, 59);
+   box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
+
   padding:50px;
   background-color:#e5e4e2;
 }
@@ -351,3 +362,95 @@ form button{
   padding-top:50px;
 }
  }
+ .signup {
+  
+/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #fccaff; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+/*     color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+h2 {
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "Josefin Sans", sans-serif;
+		background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #35af39 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 1.5s linear infinite;
+		display: inline-block;
+	}
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: goldenrod !important;
+}
+ button.navbar-toggler{
+   border-color:rgb(145, 138, 142) !important;
+ }
+ span.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+ !important;
+}
+

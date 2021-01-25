@@ -52,7 +52,7 @@ function Filter() {
     <TabPane tab="All" key="1" >
         <div style={{paddingBottom:'25px'}}>
       {todos.map((filteredTodo,id) => (
-        <li key={id} style={{listStyle:'circle',textTransform:'capitalize'}}>
+        <li key={id} style={{listStyle:'circle',textTransform:'capitalize',fontSize:'16px',fontFamily: 'Oleo Script',fontWeight:'normal'}}>
           {filteredTodo.name}
         </li>
       ))}
@@ -61,7 +61,7 @@ function Filter() {
     <TabPane tab="Active" key="2" >
      <div style={{paddingBottom:'25px'}}>
       {todos.filter(todo => todo.complete===false).map((filteredTodo,id) => (
-        <li key={id}style={{color:'darkblue',listStyle:'circle',textTransform:'capitalize'}}>
+        <li key={id}style={{color:'darkblue',listStyle:'circle',textTransform:'capitalize',fontSize:'16px',fontFamily: 'Oleo Script',fontWeight:'normal'}}>
           {filteredTodo.name}
         </li>
       ))}
@@ -70,7 +70,7 @@ function Filter() {
     <TabPane tab="Completed" key="3" >
        <div style={{paddingBottom:'25px'}}>
       {todos.filter(todo => todo.complete===true).map((filteredTodo,id) => (
-        <li key={id} style={{color:'green',listStyle:'circle',textTransform:'capitalize'}}>
+        <li key={id} style={{color:'green',listStyle:'circle',textTransform:'capitalize',fontSize:'16px',fontFamily: 'Oleo Script',fontWeight:'normal'}}>
           {filteredTodo.name}
         </li>
       ))}

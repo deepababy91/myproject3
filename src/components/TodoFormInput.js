@@ -9,7 +9,7 @@ function TodoFormInput() {
     const addTodo=e=>{
         e.preventDefault();
         setTodos([...todos,{name:todoName,complete:false}])
-        setTodoName('');
+        setTodoName('');//to clear the input field after submitting the form
     }
 
    
@@ -23,7 +23,6 @@ function TodoFormInput() {
       <PlusCircleOutlined  style={{ fontSize: '25px', color: 'white' }}/> 
       </Tooltip>
       </button>
-      
       </form>
       
     )

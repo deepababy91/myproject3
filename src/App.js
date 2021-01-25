@@ -23,7 +23,7 @@ function App() {
           <Route path="/signup" component={Signup} />
           <Route path="/todo" component={Todo} />
           <Route path="/contact" component={Contact} />
-          {/*If anything write after the '/' then I need to redirect it to the login page */}
+          {/*If anything other than the above mentioned paths write after the '/' then I need to redirect it to the '/' page which I set to signup page here */}
           <Redirect to="/" />
         </Switch>
       </div>

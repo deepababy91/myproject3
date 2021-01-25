@@ -30,9 +30,8 @@ export default function TodoList() {
     <ul>
         {
             todos.map((todo,index) => (
-                <TodoListItem todo={todo} key={index} id={index}
+                <TodoListItem todo={todo} key={index} id={index} 
                 checkComplete={switchComplete} handleEditTodos={handleEditTodos}/>
-
             ))
         }
         </ul>

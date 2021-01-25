@@ -59,7 +59,7 @@ function Filter() {
     </div>
     </TabPane>
     <TabPane tab="Active" key="2" >
-     <div style={{paddingBottom:'25px'}}>
+     <div style={{paddingBottom:'25px', wordBreak:'break-word',paddingRight:'35px'}}>
       {todos.filter(todo => todo.complete===false).map((filteredTodo,id) => (
         <li key={id}style={{color:'darkblue',listStyle:'circle',textTransform:'capitalize',fontSize:'16px',fontFamily: 'Oleo Script',fontWeight:'normal'}}>
           {filteredTodo.name}
@@ -68,7 +68,7 @@ function Filter() {
     </div>
     </TabPane>
     <TabPane tab="Completed" key="3" >
-       <div style={{paddingBottom:'25px'}}>
+       <div style={{paddingBottom:'25px', wordBreak:'break-word',paddingRight:'35px'}}>
       {todos.filter(todo => todo.complete===true).map((filteredTodo,id) => (
         <li key={id} style={{color:'green',listStyle:'circle',textTransform:'capitalize',fontSize:'16px',fontFamily: 'Oleo Script',fontWeight:'normal'}}>
           {filteredTodo.name}

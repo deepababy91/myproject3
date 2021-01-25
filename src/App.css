@@ -230,12 +230,16 @@ h2 {
 	}
 }
 
- /*media query for screen size less than 500px,Small screen view with no  box-shadow compared to other screensizes*/
+ /*media query for screen size less than 500px*/
 @media screen and (max-width:500px){
   .Todo{
   margin:80px auto;
   padding:20px;
   background-color:#e5e4e2;
+  box-shadow:
+    0 0 60px 30px rgb(59, 58, 58),
+    0 0 100px 60px rgb(145, 18, 145),
+    0 0 140px 90px rgb(29, 139, 139);
 }
 form button{
   flex:0.27;

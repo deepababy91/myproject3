@@ -43,8 +43,8 @@ export default function ListItem({todo,id,checkComplete,handleEditTodos}) {
            <label htmlFor={id} className={todo.complete?"active":""}>
            <input type="checkbox" id={id} checked={todo.complete} onChange={() =>checkComplete(id)}/>{todo.name}
           </label>
-             <span>
-                <EditOutlined  className={todo.complete?"disabled1":""} onClick={handleOnEdit} style={{color:'dodgerblue',fontSize:'20px'}}/>{' '}
+             <span className="wrapper">
+                <EditOutlined  className={todo.complete?"disabled1":""} onClick={handleOnEdit} style={{color:'dodgerblue',fontSize:'22px'}}/>&nbsp;&nbsp;
         {/*Popconfirm from antd to confirm whether the user want to delete the task or not,while on confirm it will exceute deleteTask function*/}
                 <Popconfirm
                           title="Are you sure you want to delete this task?"
@@ -53,7 +53,7 @@ export default function ListItem({todo,id,checkComplete,handleEditTodos}) {
                           okText="Yes"
                           cancelText="No"
                 >
-        <DeleteOutlined className={todo.complete?"disabled1":""} style={{color:'red',fontSize:'18px',cursor:'pointer'}}/>  </Popconfirm></span>
+        <DeleteOutlined className={todo.complete?"disabled1":""} style={{color:'red',fontSize:'20px',cursor:'pointer'}}/>  </Popconfirm></span>
         </li>       
            )
          }

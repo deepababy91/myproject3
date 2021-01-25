@@ -52,6 +52,12 @@ ul li{
   text-transform: capitalize;
   font-size: 15px;
 }
+/* css for edit and delete icons*/
+.wrapper{
+padding-left: 15px;
+display: flex;
+justify-content: flex-end;
+}
 ul li .active{
   opacity:0.5;
   text-decoration:line-through;

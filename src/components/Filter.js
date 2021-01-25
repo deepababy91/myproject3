@@ -50,7 +50,7 @@ function Filter() {
     const Demo = () => (
     <Tabs defaultActiveKey="1" type="card">
     <TabPane tab="All" key="1" >
-        <div style={{paddingBottom:'25px'}}>
+        <div style={{paddingBottom:'25px', wordBreak:'break-word',paddingRight:'35px'}}>
       {todos.map((filteredTodo,id) => (
         <li key={id} style={{listStyle:'circle',textTransform:'capitalize',fontSize:'16px',fontFamily: 'Oleo Script',fontWeight:'normal'}}>
           {filteredTodo.name}

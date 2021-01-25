@@ -46,6 +46,7 @@ ul li{
   margin:10px 0;
   padding:10px;
   display:flex;
+  word-break: break-word;
   justify-content: space-between;
   align-items:center;
   text-transform: capitalize;
@@ -366,7 +367,7 @@ form button{
   width:100%;
   min-height:400px;
  box-shadow:
-    0 0 60px 30px rgb(59, 58, 58),
+    0 0 60px 30px rgb(59, 58, 59),
     0 0 100px 60px rgb(145, 18, 145),
     0 0 140px 90px rgb(29, 139, 139);
   margin: 80px auto;
@@ -411,10 +412,9 @@ form button{
   margin: 80px auto;
   min-height:400px;
    box-shadow:
-    0 0 60px 30px rgb(59, 58, 58),
+    0 0 60px 30px rgb(59, 58, 59),
     0 0 100px 60px rgb(145, 18, 145),
     0 0 140px 90px rgb(29, 139, 139);
-
   padding:50px;
   background-color:#e5e4e2;
 }
